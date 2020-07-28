@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import Inter from "../fonts/inter.ttf";
+import Inter from "../fonts/Inter-VariableFont_slnt,wght.ttf";
 
 export const colors = {
 	white: "#fff",

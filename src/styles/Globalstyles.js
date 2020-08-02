@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import Inter from "../fonts/Inter-VariableFont_slnt,wght.ttf";
 
 export const colors = {
 	white: "#fff",
@@ -40,8 +39,6 @@ const GlobalStyles = createGlobalStyle`
 }
 
 html {
-	font-size: 62.5%;
-	font-family: 'Inter', sans-serif;
 	box-sizing: border-box;
 }
 :root {
@@ -57,7 +54,6 @@ html {
 body {
 	${"" /* background: ${props => props.theme.colors.background}; */}
 	${"" /* color: ${props => props.theme.colors.textSecondary}; */}
-	font-family: 'inter' sans-serif;
 	padding: 0 2rem 8rem 2rem;
 	transition: all .5s ease;
 }

@@ -45,15 +45,9 @@ html {
 	--site-max-width: 120rem;
 }
 
-@font-face {
-	font-family: 'inter' sans-serif;
-	src:url(${Inter});
-	font-weight: 300;
-}
-
 body {
-	${"" /* background: ${props => props.theme.colors.background}; */}
-	${"" /* color: ${props => props.theme.colors.textSecondary}; */}
+   background: ${props => props.theme.colors.background};
+	color: ${props => props.theme.colors.textSecondary};
 	padding: 0 2rem 8rem 2rem;
 	transition: all .5s ease;
 }
@@ -64,8 +58,7 @@ main {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	${"" /* color: ${props => props.theme.colors.textMain}; */}
-	font-family:"inter", sans-serif;
+	color: ${props => props.theme.colors.textMain};
 	transition: all .5s ease;
 	letter-spacing: 1px;
 }
@@ -104,4 +97,4 @@ a {
 }
 `;
 
-export default GlobalStyles;
+export { GlobalStyles };

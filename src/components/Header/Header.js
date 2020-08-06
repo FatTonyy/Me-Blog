@@ -4,14 +4,17 @@ import { Link } from "gatsby";
 //hooks
 import { useSiteConfigQuery } from "hooks/useSiteConfigQuery";
 
+// styles
+import { Wrapper, Logo } from "./HeaderStyles";
+
 export default function Header({ siteTitle = `` }) {
 	const siteConfig = useSiteConfigQuery();
 
 	return (
-		<div>
+		<Wrapper>
 			<Link to="/">
-				<img src={siteConfig.logo.publicURL} alt={siteTitle} />
+				<Logo src={siteConfig.logo.publicURL} alt={siteTitle} />
 			</Link>
-		</div>
+		</Wrapper>
 	);
 }

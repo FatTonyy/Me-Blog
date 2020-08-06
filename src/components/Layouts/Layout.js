@@ -7,6 +7,9 @@ import { GlobalStyles, lightTheme, darkTheme } from "styles/Globalstyles";
 // hooks
 import { useMetaDataQuery } from "hooks/useMetaDataQuery";
 
+//? Components
+import Header from "../Header/Header";
+
 export default function Layout({ children }) {
 	const data = useMetaDataQuery();
 	console.log(data);
@@ -14,7 +17,7 @@ export default function Layout({ children }) {
 	return (
 		<ThemeProvider theme={darkTheme}>
 			<GlobalStyles />
-			layout styled-components
+			<Header siteTitle={data.title} />
 			{children}
 		</ThemeProvider>
 	);

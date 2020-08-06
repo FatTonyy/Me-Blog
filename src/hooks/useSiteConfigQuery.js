@@ -18,5 +18,5 @@ export const useSiteConfigQuery = () => {
 		}
 	`);
 
-	return data.markdownremark.frontmatter;
+	return data.markdownRemark.frontmatter;
 };

@@ -20,3 +20,4 @@ export const useSiteConfigQuery = () => {
 
 	return data.markdownRemark.frontmatter;
 };
+// TODO revisit graphql

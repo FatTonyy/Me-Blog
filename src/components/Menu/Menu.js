@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "gatsby";
 
+// style
+import { Nav } from "./MenuStyle";
+
 export default function Menu({ items }) {
 	return (
-		<ul>
+		<Nav>
 			{items.map(item => {
 				return (
 					<li key={item.id}>
@@ -13,6 +16,6 @@ export default function Menu({ items }) {
 					</li>
 				);
 			})}
-		</ul>
+		</Nav>
 	);
 }

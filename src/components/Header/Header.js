@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 // component
 import Menu from "../Menu/Menu";
 import Hamburger from "../Hamburger/Hamburger";
+import MobileMenu from "../MobileMenu/MobileMenu";
 //hooks
 import { useSiteConfigQuery } from "hooks/useSiteConfigQuery";
 
@@ -17,6 +18,7 @@ export default function Header({ siteTitle = `` }) {
 	return (
 		<Wrapper>
 			<Hamburger menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+			<MobileMenu menuOpen={menuOpen} items={siteConfig.menu} />
 			<Menu items={siteConfig.menu} />
 			<Link to="/">
 				<Logo src={siteConfig.logo.publicURL} alt={siteTitle} />

@@ -5,21 +5,23 @@ import { Link } from "gatsby";
 import BGImage from "../BGImage/BGImage";
 //hooks
 import { useHeroQuery } from "hooks/useHeroQuery";
+
 //styles
+import { HeroWrapper, TextWrapper } from "./HeroStyle";
 
 export default function Hero() {
 	const { heroImage, heroImageText, heroImageBtnText, heroImageBtnLink } = useHeroQuery();
-	console.log(heroImage);
+
 	return (
-		<div>
+		<HeroWrapper>
 			<BGImage title="heroImage" fluid={heroImage.childImageSharp.fluid}>
-				<div>
+				<TextWrapper>
 					<h2>{heroImageText}</h2>
 					<Link to={heroImageBtnLink}>
 						<button>{heroImageBtnText}</button>
 					</Link>
-				</div>
+				</TextWrapper>
 			</BGImage>
-		</div>
+		</HeroWrapper>
 	);
 }

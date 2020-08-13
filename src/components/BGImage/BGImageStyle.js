@@ -13,7 +13,7 @@ export const FakeBGImage = styled(Img)`
 	top: 0;
 	left: 0;
 	width: 100%;
-	max-width: 50rem;
+	max-height: 50rem;
 	z-index: 0;
 	border-radius: 10px;
 `;

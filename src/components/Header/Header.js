@@ -23,6 +23,7 @@ export default function Header({ siteTitle = `` }) {
 			<Link to="/">
 				<Logo src={siteConfig.logo.publicURL} alt={siteTitle} />
 			</Link>
+			switch button
 		</Wrapper>
 	);
 }

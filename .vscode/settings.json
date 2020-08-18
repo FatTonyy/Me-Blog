@@ -2,6 +2,24 @@
 	"cSpell.words": [
 		"Blankson's",
 		"Globalstyles",
-		"blueshade"
-	]
+		"blueshade",
+		"frontmatter"
+	],
+	"workbench.colorCustomizations": {
+		"activityBar.activeBackground": "#4b2649",
+		"activityBar.activeBorder": "#676a36",
+		"activityBar.background": "#4b2649",
+		"activityBar.foreground": "#e7e7e7",
+		"activityBar.inactiveForeground": "#e7e7e799",
+		"activityBarBadge.background": "#676a36",
+		"activityBarBadge.foreground": "#e7e7e7",
+		"statusBar.background": "#291528",
+		"statusBar.foreground": "#e7e7e7",
+		"statusBarItem.hoverBackground": "#4b2649",
+		"titleBar.activeBackground": "#291528",
+		"titleBar.activeForeground": "#e7e7e7",
+		"titleBar.inactiveBackground": "#29152899",
+		"titleBar.inactiveForeground": "#e7e7e799"
+	},
+	"peacock.color": "#291528"
 }

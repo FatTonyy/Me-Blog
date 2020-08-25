@@ -6,6 +6,16 @@ import { Link } from "gatsby";
 import DateIcon from "../../images/calendar.svg";
 import TimeIcon from "../../images/watch.svg";
 
+// styles
+import {
+	CardWrapper,
+	ImgWrapper,
+	TextWrapper,
+	StatWrapper,
+	DateWrapper,
+	ReadingTimeWrapper,
+} from "./BlogPostCardStyles";
+
 export default function BlogPostCard({ slug, title, date, readingTime, excerpt, image }) {
 	return (
 		<CardWrapper>

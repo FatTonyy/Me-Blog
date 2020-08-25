@@ -67,7 +67,7 @@ p {
 	font-size: .9rem;
 	line-height:1.2;
 
-	@media screen and (min-width: 47.813em) {
+	@media screen and (min-width: 48em) {
 		font-size:2rem;
 		line-height: 1.5;
 	}

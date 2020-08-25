@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 
 // icons
 import DateIcon from "../../images/calendar.svg";
-import TimeIcon from "../../images/watch.svg";
+// import TimeIcon from "../../images/watch.svg";
 
 // styles
 import {
@@ -13,7 +13,7 @@ import {
 	TextWrapper,
 	StatWrapper,
 	DateWrapper,
-	ReadingTimeWrapper,
+	// ReadingTimeWrapper,
 } from "./BlogPostCardStyles";
 
 export default function BlogPostCard({ slug, title, date, readingTime, excerpt, image }) {
@@ -32,10 +32,10 @@ export default function BlogPostCard({ slug, title, date, readingTime, excerpt, 
 						<img src={DateIcon} alt="date" />
 					</DateWrapper>
 					{date}
-					<ReadingTimeWrapper>
+					{/* <ReadingTimeWrapper>
 						<img src={TimeIcon} alt="time" />
 						{readingTime}
-					</ReadingTimeWrapper>
+					</ReadingTimeWrapper> */}
 				</StatWrapper>
 
 				<p>{excerpt}</p>

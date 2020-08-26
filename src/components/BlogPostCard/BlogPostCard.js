@@ -3,7 +3,7 @@ import Img from "gatsby-image";
 import { Link } from "gatsby";
 
 // icons
-import DateIcon from "../../images/calendar.svg";
+import DateIcon from "../../images/basic_calendar.svg";
 // import TimeIcon from "../../images/watch.svg";
 
 // styles

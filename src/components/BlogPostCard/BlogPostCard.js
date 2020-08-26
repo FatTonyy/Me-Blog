@@ -3,7 +3,7 @@ import Img from "gatsby-image";
 import { Link } from "gatsby";
 
 // icons
-import DateIcon from "../../images/basic_calendar.svg";
+import DateIcon from "../../images/calender.svg";
 // import TimeIcon from "../../images/watch.svg";
 
 // styles
@@ -29,7 +29,7 @@ export default function BlogPostCard({ slug, title, date, readingTime, excerpt, 
 				</Link>
 				<StatWrapper>
 					<DateWrapper>
-						<img src={DateIcon} alt="date" />
+						<img src={DateIcon} alt="date released" />
 					</DateWrapper>
 					{date}
 					{/* <ReadingTimeWrapper>

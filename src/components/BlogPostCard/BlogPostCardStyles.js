@@ -55,9 +55,8 @@ export const DateWrapper = styled.div`
 	${sharedStyled}
 
 	img {
-		height: 2.25rem;
-		width: 2.25rem;
-		fill: currentColor;
+		height: 3.25rem;
+		width: 3.25rem;
 	}
 `;
 

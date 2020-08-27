@@ -3,7 +3,9 @@
 		"Blankson's",
 		"Globalstyles",
 		"blueshade",
-		"frontmatter"
+		"daymode",
+		"frontmatter",
+		"nightmode"
 	],
 	"workbench.colorCustomizations": {
 		"activityBar.activeBackground": "#4b2649",
